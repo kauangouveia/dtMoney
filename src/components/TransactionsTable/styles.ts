@@ -3,13 +3,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     margin-top: 4rem;
+    color: var(---text-title);
     table{
             width: 100%;
             border-spacing: 0 0.5rem;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
     }
     th{
-        color: var(--text-body);
+        /* color: var(---text-title); */
         font-weight: 400;
         padding: 1rem 2rem;
         text-align: left;
@@ -19,11 +20,11 @@ export const Container = styled.div`
         padding: 1rem 2rem;
         border: 0;
         background: var(--shape);
-        color:  var(--text-body);
+        /* color:  var(---text-title); */
         border-radius: 0.25rem;
 
         &:first-child{
-            color: var(--text-tile);
+            color: var(--text-body);
         }
         &.deposit{
             color: var(--green);

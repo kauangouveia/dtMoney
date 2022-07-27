@@ -8,7 +8,7 @@ export default {
         blueLight: '#6933FF',
         textTitle: '#364F5F',
         shape: '#FFFFFF',
-        textBody: '#969cb3',
+        textBody: 'black',
         green: '#33cc95',
     }
 }
